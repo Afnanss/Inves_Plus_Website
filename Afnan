@@ -163,14 +163,14 @@
     <!-- Header Section -->
     <header class="header">
         <div class="container">
-            <img src="path-to-your-logo.png" alt="Invest+ Logo" class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Saudi_National_Bank_Logo.svg/2560px-Saudi_National_Bank_Logo.svg.png" alt="Invest+ Logo" class="logo">
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <img src="path-to-your-hero-image.jpg" alt="Invest+ Credit Card" class="hero-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Saudi_National_Bank_Logo.svg/2560px-Saudi_National_Bank_Logo.svg.png" alt="Invest+ Credit Card" class="hero-image">
             <h2>Earn More with Invest+ Credit Card</h2>
             <p>Enjoy cashback rewards and exclusive offers with every purchase you make.</p>
             <a href="#apply-now" class="cta-button">Apply Now</a>
@@ -183,17 +183,17 @@
             <h2>Card Features</h2>
             <div class="feature-cards">
                 <div class="feature-card">
-                    <img src="path-to-your-cashback-image.jpg" alt="Cashback Rewards">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Saudi_National_Bank_Logo.svg/2560px-Saudi_National_Bank_Logo.svg.png.jpg" alt="Cashback Rewards">
                     <h3>Cashback Rewards</h3>
                     <p>Earn cashback on all your purchases instantly. No limits!</p>
                 </div>
                 <div class="feature-card">
-                    <img src="path-to-your-exclusive-offers-image.jpg" alt="Exclusive Offers">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Saudi_National_Bank_Logo.svg/2560px-Saudi_National_Bank_Logo.svg.png" alt="Exclusive Offers">
                     <h3>Exclusive Offers</h3>
                     <p>Get access to exclusive deals and discounts at partner locations.</p>
                 </div>
                 <div class="feature-card">
-                    <img src="path-to-your-travel-benefits-image.jpg" alt="Travel Benefits">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Saudi_National_Bank_Logo.svg/2560px-Saudi_National_Bank_Logo.svg.png" alt="Travel Benefits">
                     <h3>Travel Benefits</h3>
                     <p>Enjoy premium travel perks, including lounge access and more.</p>
                 </div>
