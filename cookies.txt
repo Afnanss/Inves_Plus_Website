@@ -1,0 +1,13 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.alahli.com	TRUE	/	FALSE	1999999999	snb-web#lang	en
+www.alahli.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	elsblladh4bg4p3xvvk1nr35
+www.alahli.com	TRUE	/	FALSE	1999999999	NCB_Cookie	!1d3LnJfsbmdUcfdQrUOkTArbO1rc9Z2tZFBMH1NNAKzXxnv8SKPg4gbDWU5MjR47vo+Nt9yTRiUCdJnKJL0KN9CfYt87d/eGN7TR5CI=
+www.alahli.com	TRUE	/	FALSE	1999999999	SC_ANALYTICS_GLOBAL_COOKIE	3d409f258cf9422990423d3c0393b07f|False
+www.alahli.com	TRUE	/	FALSE	1999999999	ADRUM_BTa	R:83|g:9bc223e7-20fe-48e7-a023-df04084e0d10|n:customer1_15f91f45-51e7-42f0-9be9-f5efcc6b66a0
+www.alahli.com	TRUE	/	FALSE	1999999999	ADRUM_BT1	R:83|i:30235|e:12
+www.alahli.com	TRUE	/	FALSE	1999999999	ADRUM_BTs	R:0|s:f
+www.alahli.com	TRUE	/	FALSE	1999999999	sxa_site	SNB-Web
+www.alahli.com	TRUE	/	FALSE	1999999999	SameSite	None
+.www.alahli.com	TRUE	/	FALSE	1999999999	TS01f6596b	01c2e750d8a5d79b41941a60d619226e7f3511b517082daa1e47a84602c317e903549f5e35efa6529f329cb95e813f50bfd1ce8fb3083c2c3dc04ada1d18eeff4b928d5001fcf78400cadd5192e0917b0865f6e4c979e898e8b982ba8f37c809b688154e62af2b55a1c720598c3226f0f960dd02d7226924d38c8fb1b7035cd2b37aac1515
+
