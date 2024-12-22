@@ -3,172 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Invest+ Credit Card</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7;
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        /* Header Section */
         .header {
             background-color: #004f94;
-            color: white;
-            padding: 15px 20px;
+            color: #fff;
+            padding: 20px 0;
             text-align: center;
         }
-        .header h1 {
-            margin: 0;
-            font-size: 28px;
+
+        .header .logo {
+            width: 150px;
+            margin: 0 auto;
         }
-        .hero-section {
-            background-image: url('path-to-your-hero-image.jpg');
-            background-size: cover;
-            background-position: center;
+
+        /* Hero Section */
+        .hero {
+            background-color: #f3a924;
+            color: #fff;
             padding: 80px 20px;
             text-align: center;
-            color: white;
         }
-        .hero-section h2 {
-            font-size: 32px;
-            margin-bottom: 15px;
+
+        .hero .hero-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
         }
-        .hero-section p {
-            font-size: 18px;
-            margin-bottom: 20px;
+
+        .hero h2 {
+            font-size: 48px;
         }
-        .cta-btn {
-            background-color: #f3a924;
-            color: white;
-            padding: 12px 20px;
-            font-size: 18px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-        }
-        .section {
-            padding: 30px 20px;
-            text-align: center;
-        }
-        .section-title {
-            font-size: 28px;
-            color: #004f94;
-        }
-        .features {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
+
+        .hero p {
+            font-size: 20px;
             margin-top: 20px;
         }
-        .feature {
-            background-color: white;
+
+        .cta-button {
+            background-color: #004f94;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #003b6e;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 50px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 32px;
+            color: #004f94;
+            margin-bottom: 20px;
+        }
+
+        .feature-cards {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .feature-card {
+            background-color: #f4f4f4;
+            width: 30%;
             padding: 20px;
-            width: 100%;
+            border-radius: 5px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .feature h3 {
-            font-size: 20px;
+
+        .feature-card img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .feature-card h3 {
+            font-size: 24px;
             color: #004f94;
             margin-bottom: 10px;
         }
-        .feature p {
-            font-size: 14px;
-            color: #555;
+
+        .feature-card p {
+            font-size: 16px;
         }
+
+        /* Apply Section */
+        .apply {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .apply h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Section */
         .footer {
             background-color: #333;
-            color: white;
+            color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 20px 0;
         }
+
         .footer a {
             color: #f3a924;
             text-decoration: none;
         }
 
-        /* Media Queries for Mobile */
-        @media (max-width: 600px) {
-            .header h1 {
-                font-size: 24px;
-            }
-            .hero-section h2 {
-                font-size: 26px;
-            }
-            .hero-section p {
-                font-size: 16px;
-            }
-            .cta-btn {
-                padding: 10px 18px;
-                font-size: 16px;
-            }
-            .section-title {
-                font-size: 24px;
-            }
-            .features {
-                flex-direction: column;
-            }
-            .feature h3 {
-                font-size: 18px;
-            }
-            .feature p {
-                font-size: 12px;
-            }
+        .footer a:hover {
+            text-decoration: underline;
         }
 
-        /* Larger Mobile / Tablets */
+        /* Responsive Design */
         @media (max-width: 768px) {
-            .features {
-                flex-direction: row;
-                justify-content: space-between;
+            .feature-cards {
+                flex-direction: column;
+            }
+
+            .feature-card {
+                width: 100%;
+                margin-bottom: 20px;
             }
         }
     </style>
 </head>
 <body>
-
     <!-- Header Section -->
-    <div class="header">
-        <h1>Invest+ Credit Card</h1>
-    </div>
+    <header class="header">
+        <div class="container">
+            <img src="path-to-your-logo.png" alt="Invest+ Logo" class="logo">
+        </div>
+    </header>
 
     <!-- Hero Section -->
-    <div class="hero-section">
-        <h2>Get More with Invest+ Credit Card</h2>
-        <p>Earn rewards, enjoy exclusive benefits, and unlock financial freedom with our Invest+ Credit Card.</p>
-        <a href="#apply-now" class="cta-btn">Apply Now</a>
-    </div>
+    <section class="hero">
+        <div class="container">
+            <img src="path-to-your-hero-image.jpg" alt="Invest+ Credit Card" class="hero-image">
+            <h2>Earn More with Invest+ Credit Card</h2>
+            <p>Enjoy cashback rewards and exclusive offers with every purchase you make.</p>
+            <a href="#apply-now" class="cta-button">Apply Now</a>
+        </div>
+    </section>
 
     <!-- Features Section -->
-    <div class="section">
-        <h2 class="section-title">Card Features</h2>
-        <div class="features">
-            <div class="feature">
-                <h3>Cashback Rewards</h3>
-                <p>Earn cashback on every purchase, no matter where you shop.</p>
-            </div>
-            <div class="feature">
-                <h3>Exclusive Travel Benefits</h3>
-                <p>Access to exclusive lounges, discounts, and offers worldwide.</p>
-            </div>
-            <div class="feature">
-                <h3>24/7 Customer Support</h3>
-                <p>Get help anytime with our dedicated support team.</p>
+    <section class="features">
+        <div class="container">
+            <h2>Card Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <img src="path-to-your-cashback-image.jpg" alt="Cashback Rewards">
+                    <h3>Cashback Rewards</h3>
+                    <p>Earn cashback on all your purchases instantly. No limits!</p>
+                </div>
+                <div class="feature-card">
+                    <img src="path-to-your-exclusive-offers-image.jpg" alt="Exclusive Offers">
+                    <h3>Exclusive Offers</h3>
+                    <p>Get access to exclusive deals and discounts at partner locations.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="path-to-your-travel-benefits-image.jpg" alt="Travel Benefits">
+                    <h3>Travel Benefits</h3>
+                    <p>Enjoy premium travel perks, including lounge access and more.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Apply Now Section -->
-    <div class="section" id="apply-now">
-        <h2 class="section-title">Ready to Apply?</h2>
-        <a href="your-application-link" class="cta-btn">Apply Now</a>
-    </div>
+    <!-- Apply Section -->
+    <section id="apply-now" class="apply">
+        <div class="container">
+            <h2>Ready to Apply?</h2>
+            <a href="application-link.html" class="cta-button">Apply Now</a>
+        </div>
+    </section>
 
     <!-- Footer Section -->
-    <div class="footer">
-        <p>© 2024 Invest+. All rights reserved.</p>
-        <p><a href="terms-and-conditions-link">Terms and Conditions</a> | <a href="privacy-policy-link">Privacy Policy</a></p>
-    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Invest+. All rights reserved.</p>
+            <p><a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
 
+    <script>
+        // JavaScript to handle Apply Now button click
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('Redirecting to the application page!');
+            });
+        });
+    </script>
 </body>
 </html>
